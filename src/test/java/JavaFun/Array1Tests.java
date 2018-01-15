@@ -1,28 +1,13 @@
 package JavaFun;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.Test;
+import org.junit.Assert;
 
 import java.util.Scanner;
 
-public class Array1Tests extends TestCase{
-    public Array1Tests(String testName )
-    {
-        super( testName );
-    }
+public class Array1Tests{
 
-    /**
-     * @return the suite of tests being tested
-     */
-    public static Test suite()
-    {
-        TestSuite ts = new TestSuite();
-        ts.addTestSuite(Calendar1Test.class);
-        return ts;
-    }
-
-
+    @Test
     public void testCalcRightWithNegatives()
     {
         String input = "0 -4 -6 0 -7 -6\n" +
@@ -42,9 +27,10 @@ public class Array1Tests extends TestCase{
         }
 
         int maxSum = Array1.calcMaxHourglass(arr);
-        assertEquals(-19, maxSum);
+        Assert.assertEquals(-19, maxSum);
     }
 
+    @Test
     public void testCalcRightWithPositive()
     {
         String input = "1 1 1 0 0 0\n" +
@@ -64,7 +50,7 @@ public class Array1Tests extends TestCase{
         }
 
         int maxSum = Array1.calcMaxHourglass(arr);
-        assertEquals(19, maxSum);
+        Assert.assertEquals(19, maxSum);
     }
 }
 

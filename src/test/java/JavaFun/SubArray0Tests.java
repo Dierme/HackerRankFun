@@ -1,24 +1,13 @@
 package JavaFun;
 
-import junit.framework.Test;
-import junit.framework.TestCase;
-import junit.framework.TestSuite;
+import org.junit.Test;
+import org.junit.Assert;
 
 import java.util.Scanner;
 
-public class SubArray0Tests extends TestCase{
+public class SubArray0Tests{
 
-    public SubArray0Tests(String testName ){
-        super( testName );
-    }
-
-    public static Test suite()
-    {
-        TestSuite ts = new TestSuite();
-        ts.addTestSuite(SubArray0Tests.class);
-        return ts;
-    }
-
+    @Test
     public void testCountsCorrectNumberOfSubArrays(){
 
         String input = "5 1 -2 4 -5 1";
@@ -35,7 +24,6 @@ public class SubArray0Tests extends TestCase{
 
         int res = SubArray0.getSubArrayNumb(a, cond);
 
-        assertEquals(9, res);
-
+        Assert.assertEquals(9, res);
     }
 }
