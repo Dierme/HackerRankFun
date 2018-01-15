@@ -2,11 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="10b56952-1c04-4f5e-a09b-66707f557253" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/JavaFun/AllTests.class" afterPath="$PROJECT_DIR$/target/test-classes/JavaFun/AllTests.class" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/test-classes/JavaFun/ArrayList0Tests.class" afterPath="$PROJECT_DIR$/target/test-classes/JavaFun/ArrayList0Tests.class" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/JavaFun/Array2.java" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/JavaFun/AllTests.java" afterPath="$PROJECT_DIR$/src/test/java/JavaFun/AllTests.java" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/test/java/JavaFun/ArrayList0Tests.java" afterPath="$PROJECT_DIR$/src/test/java/JavaFun/ArrayList0Tests.java" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -27,7 +24,7 @@
         <entry file="file://$PROJECT_DIR$/src/main/java/JavaFun/ArrayList0.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="155">
-              <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+              <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -35,14 +32,24 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="ArrayList0Tests.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="ArrayList0Tests.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/JavaFun/ArrayList0Tests.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="250">
-              <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+            <state relative-caret-position="706">
+              <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Array2.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="152">
+              <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="56" selection-end-column="5" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -100,6 +107,7 @@
         <option value="$PROJECT_DIR$/src/test/java/JavaFun/SubArray0Tests.java" />
         <option value="$PROJECT_DIR$/src/test/java/JavaFun/AllTests.java" />
         <option value="$PROJECT_DIR$/src/test/java/JavaFun/ArrayList0Tests.java" />
+        <option value="$PROJECT_DIR$/src/main/java/JavaFun/Array2.java" />
       </list>
     </option>
   </component>
@@ -217,7 +225,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AllTests">
+  <component name="RunManager" selected="Application.Array2">
     <configuration name="AllTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -243,14 +251,14 @@
       <envs />
       <patterns />
     </configuration>
-    <configuration name="Array0" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Array2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
           <option name="PATTERN" value="JavaFun.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="JavaFun.Array0" />
+      <option name="MAIN_CLASS_NAME" value="JavaFun.Array2" />
       <option name="VM_PARAMETERS" />
       <option name="PROGRAM_PARAMETERS" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
@@ -428,18 +436,18 @@
     <list size="6">
       <item index="0" class="java.lang.String" itemvalue="Application.Loops1" />
       <item index="1" class="java.lang.String" itemvalue="JUnit.AllTests" />
-      <item index="2" class="java.lang.String" itemvalue="Application.Array0" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SubArray0" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.SubArray0Tests" />
-      <item index="5" class="java.lang.String" itemvalue="Application.ArrayList0" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SubArray0" />
+      <item index="3" class="java.lang.String" itemvalue="JUnit.SubArray0Tests" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ArrayList0" />
+      <item index="5" class="java.lang.String" itemvalue="Application.Array2" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.AllTests" />
-        <item index="1" class="java.lang.String" itemvalue="Application.ArrayList0" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.SubArray0Tests" />
-        <item index="3" class="java.lang.String" itemvalue="Application.SubArray0" />
-        <item index="4" class="java.lang.String" itemvalue="Application.Array0" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Array2" />
+        <item index="1" class="java.lang.String" itemvalue="JUnit.AllTests" />
+        <item index="2" class="java.lang.String" itemvalue="Application.ArrayList0" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.SubArray0Tests" />
+        <item index="4" class="java.lang.String" itemvalue="Application.SubArray0" />
       </list>
     </recent_temporary>
   </component>
@@ -501,7 +509,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3283582" sideWeight="0.5058565" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3283582" sideWeight="0.4941435" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -526,7 +534,51 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="30" />
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="30" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java</url>
+          <line>47</line>
+          <properties />
+          <option name="timeStamp" value="31" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java</url>
+          <line>51</line>
+          <properties />
+          <option name="timeStamp" value="32" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java</url>
+          <line>48</line>
+          <properties />
+          <option name="timeStamp" value="34" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java</url>
+          <line>52</line>
+          <properties />
+          <option name="timeStamp" value="35" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java</url>
+          <line>44</line>
+          <properties />
+          <option name="timeStamp" value="36" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java</url>
+          <line>55</line>
+          <properties />
+          <option name="timeStamp" value="37" />
+        </line-breakpoint>
+      </breakpoints>
+      <option name="time" value="38" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -756,7 +808,7 @@
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="22" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -776,7 +828,7 @@
         <state relative-caret-position="38">
           <caret line="2" column="0" lean-forward="false" selection-start-line="2" selection-start-column="0" selection-end-line="3" selection-end-column="24" />
           <folding>
-            <element signature="imports" expanded="true" />
+            <element signature="imports" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -812,7 +864,7 @@
     <entry file="file://$PROJECT_DIR$/src/main/java/JavaFun/ArrayList0.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="155">
-          <caret line="41" column="0" lean-forward="true" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
+          <caret line="41" column="0" lean-forward="false" selection-start-line="41" selection-start-column="0" selection-end-line="41" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -821,11 +873,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/JavaFun/ArrayList0Tests.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="250">
-          <caret line="43" column="5" lean-forward="true" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        <state relative-caret-position="706">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/JavaFun/Array2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="152">
+          <caret line="8" column="9" lean-forward="false" selection-start-line="8" selection-start-column="9" selection-end-line="56" selection-end-column="5" />
+          <folding />
         </state>
       </provider>
     </entry>
