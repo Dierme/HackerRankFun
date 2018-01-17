@@ -10,7 +10,8 @@ import org.junit.runners.Suite.SuiteClasses;
         Calendar1Test.class,
         StaticInitTests.class,
         SubArray0Tests.class,
-        ArrayList0Tests.class})
+        ArrayList0Tests.class,
+        Array2Tests.class})
 
 public class AllTests{
 
