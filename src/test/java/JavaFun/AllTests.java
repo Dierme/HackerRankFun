@@ -11,7 +11,8 @@ import org.junit.runners.Suite.SuiteClasses;
         StaticInitTests.class,
         SubArray0Tests.class,
         ArrayList0Tests.class,
-        Array2Tests.class})
+        Array2Tests.class,
+        Stack0Tests.class})
 
 public class AllTests{
 
