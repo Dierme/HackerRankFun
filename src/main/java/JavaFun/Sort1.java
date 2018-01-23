@@ -43,6 +43,10 @@ public class Sort1
             testCases--;
         }
 
+        //sort
+        //if the goal is to sort in ascending order, comparator should return:
+        // x, x > 0 if s1 is greater than s2
+        // x, x < 0 if s1 is less than s2
         studentList.sort((s1, s2) -> {
             if(s1.getCgpa() == s2.getCgpa()){
                 if(s2.getFname().compareTo(s1.getFname()) == 0){
