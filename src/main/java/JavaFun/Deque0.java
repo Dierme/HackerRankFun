@@ -1,7 +1,9 @@
 package JavaFun;
 
+import java.util.HashSet;
 import java.util.LinkedList;
 import java.util.Scanner;
+import java.util.Set;
 
 public class Deque0 {
     public static void main(String[] args){
@@ -11,7 +13,7 @@ public class Deque0 {
         int m = in.nextInt();
 
         //amount of unique numbers in current subarray
-        int unique = 0;
+        Set<Integer> uniqueSet = new HashSet<>();
 
         //max amount of unique numbers in all subarrays
         int maxUnique = 0;
@@ -23,14 +25,13 @@ public class Deque0 {
                 int removed = llist.removeLast();
 
                 if(!llist.contains(removed))
-                    unique--;
+                    uniqueSet.remove(removed);
             }
 
-            if(!llist.contains(num))
-                unique++;
-
+            uniqueSet.add(num);
             llist.addFirst(num);
 
+            int unique = uniqueSet.size();
             if(unique > maxUnique)
                 maxUnique = unique;
         }
