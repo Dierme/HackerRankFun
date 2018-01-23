@@ -4,7 +4,7 @@ import java.util.Arrays;
 import java.util.LinkedList;
 import java.util.Scanner;
 
-public class Comparator {
+public class Sort0 {
     static class Checker implements java.util.Comparator<Player>{
 
         @Override
